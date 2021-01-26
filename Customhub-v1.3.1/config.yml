@@ -1,0 +1,35 @@
+hubcommand:
+  - 'me 这是输入/hub后的指令'
+  - 'me 请前往配置文件修改指令'
+#输入/hub后执行的指令，无需斜杠
+delay-switch: true
+#是否开启延迟功能
+delay: 3
+#延迟多少（就是输入/hub后多久启动指令）单位秒
+lobby: false
+#是否开启/lobby指令
+messege-title-switch: true
+#是否开启传送倒计时时的title显示
+messege-title: '即将传送:'
+#title显示内容
+messege-subtitle-switch: true
+#是否开启传送倒计时时的subtitle(副标题)显示
+messege-subtitle: '即将传送:'
+#subtitle显示内容
+messege-time-switch: true
+#是否开启传送倒计时时聊天区提示
+messege-time: '即将传送回主城:'
+
+messege-reload: '插件重载成功'
+messege-nopermissions: '你没有权限这么做'
+messege-load: '正在读取配置文件'
+messege-load-hub: '输入/hub后执行的指令'
+messege-load-lobby: '输入/lobby后执行的指令'
+messege-load-nolobby: 'lobby指令未开启'
+messege-load-yeslobby: 'lobby指令开启了'
+messege-load-delayon: '指令延迟'
+messege-load-title: '主标题'
+messege-load-subtitle: '副标题'
+messege-load-time: '消息'
+messege-syntaxerror: '语法错误'
+messege-isnotplayer: '只有玩家才能执行该指令'

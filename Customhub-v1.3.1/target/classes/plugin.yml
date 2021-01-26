@@ -1,0 +1,18 @@
+name: Customhub
+version: 1.0-SNAPSHOT
+main: customhub.customhub.Customhub
+api-version: 1.15
+commands:
+  hub:
+    description: /hub指令
+  Customhub:
+    description: 插件主体指令
+  lobby:
+    description: /lobby指令
+permissions:
+  customhub.command.reload:
+    description: 重载插件的权限
+    default: op
+  customhub.command.info:
+    description: 读取配置文件权限
+    default: op
